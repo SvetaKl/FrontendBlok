@@ -4,39 +4,459 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li>Have any questions?</li>
-        <li><a href="mailto:support@example.com">support@example.com</a></li>
-        <li><a href="tel:+1814251152">+1 814 251 152</a></li>
-    </ul>
-    <ul>
-        <li><a href="">Login</a></li>
-        <li><a href="">Register</a></li>
-    </ul>
-    <img src="img/logo.svg" alt="logo">
-    <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Page</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">Shortcodes</a></li>
-        <li><a href="">Features</a></li>
-        <li><a href="">Contact</a></li>
-        <li><button></button></li>
-    </ul>
-    <div>
-        <p>Quickly Setup Your Website</p>
-        <h1>Stepup is designed specially for Startups</h1>
-    </div>
-    <a href="#">Buy Now !</a>    
-    <h2>100% Responsive Design</h2>
-    <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
-    <h2>Unlimited Features</h2>
-    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
-    <h2>Fully Customizable</h2>
-    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
+    <header>
+        <div class="header">
+            <div class="wrapper">
+                <div class="nav-top">
+                    <ul class="info info-left">
+                        <li class="info-item">Have any questions?</li>
+                        <li class="info-item"><a class="info-link" href="mailto:support@example.com"><i class="fas fa-envelope"></i>support@example.com</a></li>
+                        <li class="info-item"><a class="info-link" href="tel:+1814251152"><i class="fas fa-phone-alt"></i>+1 814 251 152</a></li>
+                    </ul>
+                    <ul class="info info-right">
+                        <li class="info-item"><a class="info-link" href=""><i class="fas fa-sign-out-alt"></i>Login</a></li>
+                        <li class="info-item"><a class="info-link register" href="">Register</a></li>
+                    </ul>
+                </div>
+                <div class="head">
+                    <img class="logo" src="img/logo-main.svg" alt="logo">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Page</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Shop</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Shortcodes</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Features</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                            <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-search"></i></button></li>
+                            <li class="nav-item-btn"><button class="nav-btn"><i class="fas fa-share-alt"></i></button></li>
+                        </ul>
+                    </nav>
+                </div>            
+                <div class="title center">
+                    <div class="element element-top"></div>
+                    <p>Quickly Setup Your Website</p>
+                    <h1>Stepup is designed specially for Startups</h1>
+                    <div class="element element-bottom"></div>
+                </div>
+                <p class="center"><a href="#" class="btn">Buy Now !</a></p>                
+            </div>
+        </div>        
+    </header>
+    <main>
+        <div class="page page-line">
+            <div class="wrapper">
+                <div class="box center">
+                    <div class="box-item">
+                        <div class="box-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <h2>100% Responsive Design</h2>
+                        <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
+                    </div>
+                    <div class="box-item box-item-center">
+                        <div class="box-icon"><i class="far fa-lightbulb"></i></div>
+                        <h2>Unlimited Features</h2>
+                        <p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
+                    </div>
+                    <div class="box-item">
+                        <div class="box-icon box-icon-pen"><i class="fas fa-pencil-alt"></i></div>
+                        <h2>Fully Customizable</h2>
+                        <p class="description">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="wrapper page-mockup">
+            <div class="box-text">
+                <h2 class="title-h2"><span>About Our Company</span>Who We Are?</h2>
+                <div class="line"></div>
+                <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+                <p class="description">Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos.</p>
+                <ul class="list-description">
+                    <li>Simplify compelling innovation and long-term high.</li>
+                    <li>Quickly streamline focused deliverables whereas progressive.</li>
+                </ul>
+                <a href="#" class="btn-blue">Read More</a>
+            </div>            
+            <div class="mockup"></div>
+        </div>
+        <div class="page page-gray">
+            <div class="wrapper center">
+                <h2 class="title-h2"><span>See Portfolio</span>Recent Works</h2>
+                <div class="line-center"></div>
+                <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+            </div>
+        </div>        
+        <div class="photo">
+            <div class="photo-item">
+                <img src="img/img1.png" alt="photo">
+                <div class="photo-text">
+                    <h3>Website Template</h3>
+                    <p>Ui Design / Website</p>
+                </div>
+                <div class="photo-btn">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img/img2.png" alt="photo">
+                <div class="photo-text">
+                    <h3>Website Template</h3>
+                    <p>Ui Design / Website</p>
+                </div>
+                <div class="photo-btn">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img/img3.png" alt="photo">
+                <div class="photo-text">
+                    <h3>Website Template</h3>
+                    <p>Ui Design / Website</p>
+                </div>
+                <div class="photo-btn">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img/img4.png" alt="photo">
+                <div class="photo-text">
+                    <h3>Website Template</h3>
+                    <p>Ui Design / Website</p>
+                </div>
+                <div class="photo-btn">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+            <div class="photo-item">
+                <img src="img/img5.png" alt="photo">
+                <div class="photo-text">
+                    <h3>Website Template</h3>
+                    <p>Ui Design / Website</p>
+                </div>
+                <div class="photo-btn">
+                    <a href=""><i class="fas fa-search"></i></a>
+                    <a href=""><i class="fas fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="far fa-eye"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Retina Ready</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-lock"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Unlock Features</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-shopping-cart"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Woocommerce</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-star"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Multi Purpose</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>         
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="far fa-thumbs-up"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Demo Content</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-tint"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Weekly Update</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-sliders-h"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Custom Sliders</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-rss"></i></div>
+                        <div class="grid-line-text">
+                            <h3>Unique Blog</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+                <div class="grid-item">
+                    <div class="grid-line">
+                        <div class="box-icon box-icon-min"><i class="fas fa-user"></i></div>
+                        <div class="grid-line-text">
+                            <h3>User Friendly</h3>
+                            <p class="description">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        <div class="page page-bg">
+            <div class="wrapper">
+                <div class="title center">
+                    <div class="element element-top"></div>
+                    <p>Hand Crafted with Love</p>
+                    <h1>Beautiful Websites for all</h1>
+                    <p class="center"><a href="#" class="btn">Take a Tour</a></p>
+                    <div class="element element-bottom"></div>
+                </div>                                
+            </div>
+        </div>
+        <div class="page page-team">
+            <div class="wrapper center">
+                <h2 class="title-h2"><span>Creative Team</span>Meat Our Team</h2>
+                <div class="line-center"></div>
+                <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                <div class="team">
+                    <div class="team-item">
+                        <div class="team-thumb"><img src="img/lud1.png" alt="Justin Doe"></div>
+                        <p class="team-position">(Sr. Advisor)</p>
+                        <p class="team-name">Justin Doe</p>
+                        <p class="description">People who already have strong trust relships with you. akshay hello world.</p>
+                        <ul class="team-social">
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-facebook-f"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    <div class="team-item">
+                        <div class="team-thumb"><img src="img/lud2.png" alt="Dia Josaf"></div>
+                        <p class="team-position">(Sr. Advisor)</p>
+                        <p class="team-name">Dia Josaf</p>
+                        <p class="description">People who already have strong trust relships with you. akshay hello world.</p>
+                        <ul class="team-social">
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-facebook-f"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                    <div class="team-item">
+                        <div class="team-thumb"><img src="img/lud3.png" alt="Martin Gips"></div>
+                        <p class="team-position">(Sr. Advisor)</p>
+                        <p class="team-name">Martin Gips</p>
+                        <p class="description">People who already have strong trust relships with you. akshay hello world.</p>
+                        <ul class="team-social">
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-facebook-f"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-twitter"></i></li>
+                            <li class="team-social-item"><a href="" target="_blank"></a><i class="fab fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page page-gray">
+            <div class="wrapper center">
+                <h2 class="title-h2"><span>Website Mockup</span>Our Complete Pack</h2>
+                <div class="line-center"></div>
+                <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                <img class="screen" src="img/screen.png" alt="Screen">
+            </div>
+        </div>
+        <div class="page page-stat">
+            <div class="wrapper">
+                <div class="box-stat">
+                    <div class="box-stat-item">
+                        <i class="fas fa-star"></i>
+                        <h3>
+                            <span>Project Complete</span>2507
+                        </h3>
+                    </div>
+                    <div class="box-stat-item">
+                        <i class="fas fa-user"></i>
+                        <h3>
+                            <span>Project Complete</span>1487
+                        </h3>
+                    </div>
+                    <div class="box-stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <h3>
+                            <span>Project Complete</span>547
+                        </h3>
+                    </div>
+                    <div class="box-stat-item">
+                        <i class="fas fa-mug-hot"></i>
+                        <h3>
+                            <span>Project Complete</span>2507
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page page-blog">
+            <div class="wrapper">
+                <div class="center">
+                    <h2 class="title-h2"><span>Stay Always Updated</span>LATEST Blog Post</h2>
+                    <div class="line-center"></div>
+                    <p class="description">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus.</p>
+                </div>                
+                <div class="blog">
+                    <div class="blog-item">
+                        <div class="blog-flex">
+                            <div class="thumb-blog">
+                                <img src="img/blog1.png" alt="">
+                                <div class="blog-share">
+                                    <button class="comments">50</button>
+                                    <button class="like">98</button>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Blog Image Post</h3>
+                                <ul>
+                                    <li>by <a href="">admin</a></li>
+                                    <li>sept 29, 2019</li>
+                                </ul>
+                                <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conseuat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus. Proin gravida nibh vel velit auctor aliquet.</p>
+                                <a href=""><span>Read More</span><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-flex">
+                            <div class="thumb-blog">
+                                <img src="img/blog2.png" alt="">
+                                <div class="blog-share">
+                                    <button class="comments">50</button>
+                                    <button class="like">98</button>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Blog Image Post</h3>
+                                <ul>
+                                    <li>by <a href="">admin</a></li>
+                                    <li>sept 29, 2019</li>
+                                </ul>
+                                <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conseuat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus. Proin gravida nibh vel velit auctor aliquet.</p>
+                                <a href=""><span>Read More</span><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-flex">
+                            <div class="thumb-blog">
+                                <img src="img/blog3.png" alt="">
+                                <div class="blog-share">
+                                    <button class="comments">50</button>
+                                    <button class="like">98</button>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Blog Image Post</h3>
+                                <ul>
+                                    <li>by <a href="">admin</a></li>
+                                    <li>sept 29, 2019</li>
+                                </ul>
+                                <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conseuat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus. Proin gravida nibh vel velit auctor aliquet.</p>
+                                <a href=""><span>Read More</span><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <div class="blog-flex">
+                            <div class="thumb-blog">
+                                <img src="img/blog4.png" alt="">
+                                <div class="blog-share">
+                                    <button class="comments">50</button>
+                                    <button class="like">98</button>
+                                </div>
+                            </div>
+                            <div class="text-blog">
+                                <h3>Blog Image Post</h3>
+                                <ul>
+                                    <li>by <a href="">admin</a></li>
+                                    <li>sept 29, 2019</li>
+                                </ul>
+                                <p>Sollicitudin, lorem quis bibe u auctor, nisi elit conseuat ipsu, nec sagittis sem ni id elit. Duis sed odio sit amet nibh vulpute cursus. Proin gravida nibh vel velit auctor aliquet.</p>
+                                <a href=""><span>Read More</span><i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+        <div class="page page-company">
+            <div class="wrapper">
+                <div class="company">
+                    <div class="company-item company-one"></div>
+                    <div class="company-item company-two"></div>
+                    <div class="company-item company-three"></div>
+                    <div class="company-item company-four"></div>
+                    <div class="company-item company-five"></div>
+                    <div class="company-item company-six"></div>
+                </div>
+            </div>
+        </div>       
+    </main>
+    <footer>
+        <div class="footer">
+            <button id="btnUp" class="btn-footer"><i class="fas fa-angle-double-up"></i></button>
+            <div class="footer-bg">
+                <div class="wrapper">
+                    <div class="footer-text">
+                        <p>© Copyright 2018-19 - Design By Webstrot</p>
+                        <ul class="footer-list">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Page</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+        $("#btnUp").click(function(){
+            $("html").animate({scrollTop: 0}, "slow");
+        });
+    </script>
 </body>
 </html>
